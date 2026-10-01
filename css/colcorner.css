@@ -20,12 +20,11 @@ body {
 
 div[class^="col"] {
   min-height: 50px;
-  border: 3.5px solid black;
 }
 
 .container {
   margin: 1px auto;
-  width: min(90%, 70.5rem);
+  width: min(80%, 70.5rem);
 }
 
 #colonial {
@@ -42,4 +41,53 @@ div[class^="col"] {
   color: #ffffff;
   -webkit-text-stroke: 2px #ff9900;
   font-size: 90px;
+}
+
+.welcPage {
+  background-color: #0066ff41;
+  overflow-wrap: break-word;
+  outline: none;
+  text-align: center;
+}
+
+.img-fluid {
+  width: 678px;
+  height: 571px;
+  align-content: left;
+}
+
+.home-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.episodes-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.about-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.staff-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* 
+.colNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.navbar {
+  font-size: 30px;
+}
+
+.soggy {
+  width: 50px;
+  height: 10px;
 }
