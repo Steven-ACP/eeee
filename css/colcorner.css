@@ -58,22 +58,22 @@ div[class^="col"] {
 
 .home-link {
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .episodes-link {
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .about-link {
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .staff-link {
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* 
@@ -88,6 +88,31 @@ div[class^="col"] {
 }
 
 .soggy {
-  width: 50px;
-  height: 10px;
+  width: 180px;
+  height: 180px;
+}
+
+.newDesc {
+  padding-top: 150px;
+}
+
+.navList {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 28px;
+}
+
+.aboutPage {
+  background-color: #e6e9ee60;
+  overflow-wrap: break-word;
+  outline: none;
+  text-align: center;
+}
+
+.staff {
+  display: flex; /* or display: grid; */
+  flex-wrap: wrap; /* Required for flexbox to create rows */
+
+  row-gap: 200px; /* Controls vertical space between rows */
 }
