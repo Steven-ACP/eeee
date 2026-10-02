@@ -1,7 +1,7 @@
 /** @format */
 
 body {
-  background-image: url("/mic.png");
+  background-image: url("mic.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
